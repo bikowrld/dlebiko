@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    <link rel="stylesheet" href="functions.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="left">
+            <div class="text"><h3>Rock paper sciccors</h3></div>
+            <div class="btnbox">
+            <button class="btn" onclick="playGame('rock');"><img src="rock-emoji.png" alt="rock-emoji"></button>
+            <button class="btn" onclick="playGame('paper');"><img src="paper-emoji.png" alt="paper-emoji"></button>
+            <button class="btn" onclick="playGame('scissors');"><img src="scissors-emoji.png" alt="scissors-emoji"></button>
+            </div>
+            <div class="reset-div">
+            <button class="reset-btn" onclick="score.wins =0; score.Loses=0; score.Ties=0; localStorage.removeItem('score')">Reset Score</button>
+            <button id="autoplaya" onclick="autoPlay();">Autoplay</button>
+            </div>
+        </div>
+        <div class="right">
+            <p id="display-result"></p>
+            <p id="display-score"></p>
+        </div>
+    </div>
+    <script src="functions.js"></script>
+</body>
+</html>
