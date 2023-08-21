@@ -107,7 +107,7 @@ body{
         grid-row: 1/2;
         width: 90%;
         height: 100%;
-        margin: 150px 5% 20px 5%;
+        margin: 5px 5% 20px 5%;
         
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
@@ -120,7 +120,7 @@ body{
         grid-row: 2/3;
         width: 80%;
         height: 70%;
-        margin: 200px 10% 20px 10%;
+        margin: 50px 10% 20px 10%;
         border-radius: 10px;
         display: grid;
         grid-template-rows: 1fr 1fr;
