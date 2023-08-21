@@ -89,7 +89,7 @@ body{
     body{
         margin: 0;
         padding: 0;
-        height: 100%;
+        height: 100vh;
     }
     .main-div{
         width: 100%;
@@ -119,7 +119,7 @@ body{
         grid-column: 1/3;
         grid-row: 2/3;
         width: 80%;
-        height: 100%;
+        height: 70%;
         margin: 200px 10% 20px 10%;
         border-radius: 10px;
         display: grid;
