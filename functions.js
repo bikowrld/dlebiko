@@ -93,3 +93,8 @@ function playGame(playerMove){
     }
     return computerMove;
     }
+    function resetScores(){
+        score.wins =0; score.Loses=0; score.Ties=0;
+        localStorage.removeItem('score'); 
+        console.log(score.wins);
+    }
