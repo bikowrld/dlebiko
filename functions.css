@@ -71,6 +71,11 @@ body{
     width: 100px;
     height: 100px;
     cursor: pointer;
+    transition: transform .2s; 
+    margin: 0 auto;
+}
+.btn img:hover{
+    transform: scale(1.5);
 }
 .reset-div{
     display: flex;
@@ -89,10 +94,12 @@ body{
     border-radius: 5px;
     padding: 10px;
     border: none;
+    transition: transform .2s; 
 }
 #autoplaya:hover,
 .reset-btn:hover{
     color: #113946;
     background-color:#F9F3CC;
     border: 1px solid #113946;
+    transform: scale(1.2);
 }
